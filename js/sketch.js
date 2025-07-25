@@ -14,7 +14,7 @@ function updateSpacing(x, y) {
 
   const letterSpacing = (-0.6 + 0.6 * ratio).toFixed(2) + 'em';
   const lineHeight = (0.1 + 1.5 * ratio).toFixed(2);
-  const fontSize = (120 - 48 * ratio).toFixed(2) + 'px';  // 중심 100px, 멀면 72px
+  const fontSize = (72 - 24 * ratio).toFixed(2) + 'px';  // 중심 72px, 멀면 48px
 
   lines.forEach(line => {
     line.style.letterSpacing = letterSpacing;
