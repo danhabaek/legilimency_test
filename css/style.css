@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Legilimency';
+  src: url('../asset/Legilimency-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: white;
+  font-family: 'Legilimency', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  user-select: none;
+}
+
+.line {
+  display: block;
+  font-size: 72px;
+  letter-spacing: 0em;
+  line-height: 1.6;
+  transition: letter-spacing 0.1s, line-height 0.1s;
+}
